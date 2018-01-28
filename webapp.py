@@ -4,6 +4,8 @@ import os
 
 app = Flask(__name__)
 
+def get_questions():
+
 @app.route("/")
 def render_main():
         return render_template('home.html')

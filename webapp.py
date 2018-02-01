@@ -1,7 +1,5 @@
 import os
-from flask import Flask, url_for, render_template, request
-from flask import redirect
-from flask import session
+from flask import Flask, url_for, render_template, request, redirect, session
 
 app = Flask(__name__)
 
@@ -18,19 +16,18 @@ def get_questions():
 def render_main():
         return render_template('home.html')
     
-@app.route('/lang',methods=['GET','POST'])
+@app.route('/lang', methods=['GET','POST'])
 def render_lang():
         return render_template('lang.html')
 
-@app.route('/chem',methods=['GET','POST'])
+@app.route('/chem', methods=['GET','POST'])
 def render_chem():
         return render_template('chem.html')
 
 @app.route('/startOver')
 def startOver():
-    #clear variable values and create a new session
-    session.clear()
-    return redirect(url_for('renderMain')) # url_for('renderMain') could be replaced with '/'
+    session.clear() #clear variable values and create a new session
+    return redirect('/') # url_for('render_main') could be replaced with '/'
   
  
   

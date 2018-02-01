@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key=os.environ["SECRET_KEY"]; #This is an environment variable.  
                                      #The value should be set in Heroku (Settings->Config Vars). 
 
-def get_questions():
+# def get_questions():
 
 @app.route('/')
 def render_main():
@@ -27,7 +27,7 @@ def render_chem():
 @app.route('/startOver')
 def startOver():
     session.clear() #clear variable values and create a new session
-    return redirect('/') # url_for('render_main') could be replaced with '/'
+    return redirect(url_for('render_main'))
   
  
   

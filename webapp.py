@@ -22,7 +22,7 @@ def render_lang():
 
 @app.route('/chem', methods=['GET','POST'])
 def render_chem():
-        return render_template('chem.html')
+        return render_template('chem.html', q1 = 5)
 
 @app.route('/startOver')
 def startOver():

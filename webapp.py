@@ -1,4 +1,5 @@
 import os
+import json
 from flask import Flask, url_for, render_template, request, redirect, session
 
 app = Flask(__name__)
@@ -10,8 +11,16 @@ app = Flask(__name__)
 app.secret_key=os.environ["SECRET_KEY"]; #This is an environment variable.  
                                      #The value should be set in Heroku (Settings->Config Vars). 
 
-# def get_questions():
-
+def get_lang_questions(number):
+values = {}
+values[q1][val1] = 
+values[q1][val2] = 
+values[q1][val3] = 
+values[q1][val4] = 
+values[q2][val1] = 
+  
+def get_chem_questions(number):
+  
 @app.route('/')
 def render_main():
         return render_template('home.html')

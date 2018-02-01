@@ -18,11 +18,11 @@ def render_main():
     
 @app.route('/lang', methods=['GET','POST'])
 def render_lang():
-        return render_template('lang.html')
+        return render_template('lang.html', val1 = 5, val2 = 6, val3 = 7, val4 = 8)
 
 @app.route('/chem', methods=['GET','POST'])
 def render_chem():
-        return render_template('chem.html', val1 = 5)
+        return render_template('chem.html', val1 = 5, val2 = 6, val3 = 7, val4 = 8)
 
 @app.route('/startOver')
 def startOver():

@@ -29,9 +29,9 @@ def render_main():
     
 @app.route('/lang', methods=['GET','POST'])
 def render_lang():
-  with open('values.json') as values_data:
-    values = json.load(values_data)
-        return render_template('lang.html', val1 = str(values[0][0]["Value One"]), val2 = str(values[0][0]["Value Two"]), val3 = str(values[0][0]["Value Three"]), val4 = str(values[0][0]["Value Four"]))
+      with open('values.json') as values_data:
+        values = json.load(values_data)
+        return render_template('lang.html', val1 = values[0][0]["Value One"], val2 = values[0][0]["Value Two"], val3 = values[0][0]["Value Three"], val4 = values[0][0]["Value Four"])
 
 @app.route('/chem', methods=['GET','POST'])
 def render_chem():

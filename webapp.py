@@ -11,16 +11,15 @@ app = Flask(__name__)
 app.secret_key=os.environ["SECRET_KEY"]; #This is an environment variable.  
                                      #The value should be set in Heroku (Settings->Config Vars). 
 
-#  with open('values.json') as values_data:
-#         values = json.load(values_data)
-  
+
+        
 # def get_lang_questions(number):
-# values = {}
-# values[q1][val1] = 
-# values[q1][val2] = 
-# values[q1][val3] = 
-# values[q1][val4] = 
-# values[q2][val1] = 
+#    with open('values.json') as values_data:
+#         values = json.load(values_data)
+# val1 = values[0][number]["Value One"]
+# val2 = values[0][number]["Value Two"]
+# val3 = values[0][number]["Value Three"]
+# val4 = values[0][number]["Value Four"]
   
 # def get_chem_questions(number):
   
@@ -30,7 +29,9 @@ def render_main():
     
 @app.route('/lang', methods=['GET','POST'])
 def render_lang():
-        return render_template('lang.html', val1 = 10, val2 = 12, val3 = 14, val4 = 16)
+  with open('values.json') as values_data:
+    values = json.load(values_data)
+        return render_template('lang.html', val1 = values[0][0]["Value One"], val2 = values[0][0]["Value Two"], val3 = values[0][0]["Value Three"], val4 = values[0][0]["Value Four"])
 
 @app.route('/chem', methods=['GET','POST'])
 def render_chem():

@@ -30,7 +30,7 @@ def render_main():
     
 @app.route('/lang', methods=['GET','POST'])
 def render_lang():
-        return render_template('lang.html', val1 = 10, val2 = 12, val3 = 14, val4 = 16)
+        return render_template('lang.html', val1 = <p>C</p><sub>2</sub>, val2 = 12, val3 = 14, val4 = 16)
 
 @app.route('/chem', methods=['GET','POST'])
 def render_chem():

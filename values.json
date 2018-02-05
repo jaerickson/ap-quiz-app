@@ -46,17 +46,157 @@
   [
     {
       "Question": "What is the chemical formula for acetate?",
-      "Value One": "C2H3O2-",
-      "Value Two": "The act of learning a dialect through exposure as opposed to formal learning",
-      "Value Three": "Writing or speech that is not intended to carry literal meaning and is usually meant to be imaginative and vivid",
-      "Value Four": "A vernacular developed over many years and differing greatly from its origin tongue"
+      "Value One": "C2H3O2,-",
+      "Value Two": "C2O4,2-",
+      "Value Three": "PO3,3-",
+      "Value Four": "SCN,-"
     },
     {
       "Question": "What is the chemical formula for ammonium?",
-      "Value One": "Speech or word use unfamiliar to an audience",
-      "Value Two": "The act of learning a dialect through exposure as opposed to formal learning",
-      "Value Three": "Writing or speech that is not intended to carry literal meaning and is usually meant to be imaginative and vivid",
-      "Value Four": "A vernacular developed over many years and differing greatly from its origin tongue"
+      "Value One": "CO3,2-",
+      "Value Two": "ClO3,-",
+      "Value Three": "NH4,+",
+      "Value Four": "NO3,-"
+    },
+    {
+      "Question": "What is the chemical formula for bromate?",
+      "Value One": "BrO3,-",
+      "Value Two": "CrO4,2-",
+      "Value Three": "MnO4,-",
+      "Value Four": "ClO,-"
+    },
+    {
+      "Question": "What is the chemical formula for carbonate?",
+      "Value One": "BrO3,-",
+      "Value Two": "CrO4,2-",
+      "Value Three": "MnO4,-",
+      "Value Four": "CO3,2-"
+    },
+    {
+      "Question": "What is the chemical formula for chlorate?",
+      "Value One": "BrO3,-",
+      "Value Two": "ClO3,-",
+      "Value Three": "MnO4,-",
+      "Value Four": "ClO,-"
+    },
+    {
+      "Question": "What is the chemical formula for chlorite?",
+      "Value One": "ClO2,-",
+      "Value Two": "CrO4,2-",
+      "Value Three": "MnO4,-",
+      "Value Four": "ClO,-"
+    },
+    {
+      "Question": "What is the chemical formula for chromate?",
+      "Value One": "ClO2,-",
+      "Value Two": "CrO4,2-",
+      "Value Three": "CrO4,2-",
+      "Value Four": "ClO,-"
+    },
+    {
+      "Question": "What is the chemical formula for cyanide?",
+      "Value One": "ClO2,-",
+      "Value Two": "CrO4,2-",
+      "Value Three": "MnO4,-",
+      "Value Four": "CN,-"
+    },
+    {
+      "Question": "What is the chemical formula for dichromate?",
+      "Value One": "Cr2O7,2-",
+      "Value Two": "CrO4,2-",
+      "Value Three": "MnO4,-",
+      "Value Four": "CN,-"
+    },
+    {
+      "Question": "What is the chemical formula for hydroxide?",
+      "Value One": "Cr2O7,2-",
+      "Value Two": "CrO4,2-",
+      "Value Three": "OH,-",
+      "Value Four": "CN,-"
+    },
+    {
+      "Question": "What is the chemical formula for hypochlorite?",
+      "Value One": "Cr2O7,2-",
+      "Value Two": "CrO4,2-",
+      "Value Three": "OH,-",
+      "Value Four": "ClO,-"
+    },
+    {
+      "Question": "What is the chemical formula for nitrate?",
+      "Value One": "Cr2O7,2-",
+      "Value Two": "NO3,-",
+      "Value Three": "OH,-",
+      "Value Four": "ClO,-"
+    },
+    {
+      "Question": "What is the chemical formula for nitrite?",
+      "Value One": "Cr2O7,2-",
+      "Value Two": "NO3,-",
+      "Value Three": "NO2,-",
+      "Value Four": "ClO,-"
+    },
+    {
+      "Question": "What is the chemical formula for oxalate?",
+      "Value One": "Cr2O7,2-",
+      "Value Two": "NO3,-",
+      "Value Three": "NO2,-",
+      "Value Four": "C2O4,2-"
+    },
+    {
+      "Question": "What is the chemical formula for perchlorate?",
+      "Value One": "ClO4,-",
+      "Value Two": "NO3,-",
+      "Value Three": "NO2,-",
+      "Value Four": "C2O4,2-"
+    },
+    {
+      "Question": "What is the chemical formula for permanganate?",
+      "Value One": "MnO4,-",
+      "Value Two": "NO3,-",
+      "Value Three": "NO2,-",
+      "Value Four": "C2O4,2-"
+    },
+    {
+      "Question": "What is the chemical formula for peroxide?",
+      "Value One": "MnO4,-",
+      "Value Two": "NO3,-",
+      "Value Three": "O2,2-",
+      "Value Four": "C2O4,2-"
+    },
+    {
+      "Question": "What is the chemical formula for phosphate?",
+      "Value One": "MnO4,-",
+      "Value Two": "PO4,3-",
+      "Value Three": "O2,2-",
+      "Value Four": "C2O4,2-"
+    },
+    {
+      "Question": "What is the chemical formula for phosphite?",
+      "Value One": "MnO4,-",
+      "Value Two": "PO4,3-",
+      "Value Three": "PO3,3-",
+      "Value Four": "C2O4,2-"
+    },
+    {
+      "Question": "What is the chemical formula for sulfate?",
+      "Value One": "MnO4,-",
+      "Value Two": "PO4,3-",
+      "Value Three": "PO3,3-",
+      "Value Four": "SO4,2-"
+    },
+    {
+      "Question": "What is the chemical formula for sulfite?",
+      "Value One": "MnO4,-",
+      "Value Two": "SO4,2-",
+      "Value Three": "PO3,3-",
+      "Value Four": "SO3,2-"
+    },
+    {
+      "Question": "What is the chemical formula for thiocyanate?",
+      "Value One": "MnO4,-",
+      "Value Two": "SO4,2-",
+      "Value Three": "SCN,-",
+      "Value Four": "SO3,2-"
     }
   ]
 ]

@@ -2,61 +2,60 @@
   [
     {
       "Question": "Define Denotation.",
-      "Value One": "The act of deleting a note or annotation"
-      "Value Two": "The strict, literal, dictionary definition of a word"
-      "Value Three": "The value a variable"
+      "Value One": "The act of deleting a note or annotation",
+      "Value Two": "The strict, literal, dictionary definition of a word",
+      "Value Three": "The value a variable",
       "Value Four": "An idea or feeling that a word invokes in addition to its literal or primary meaning"
     },
     {
-      "Question": "Define Diction."
-      "Value One": "Refers to the writer's word choices, especially with regard to their correctness, clearness, or effectiveness"
-      "Value Two": "Archaic language for the word 'dictionary'"
-      "Value Three": "A specific genre of fiction known for dramatic portayals of love and death"
+      "Question": "Define Diction.",
+      "Value One": "Refers to the writer's word choices, especially with regard to their correctness, clearness, or effectiveness",
+      "Value Two": "Archaic language for the word 'dictionary'",
+      "Value Three": "A specific genre of fiction known for dramatic portayals of love and death",
       "Value Four": "Slang for the word 'addiction'"
     },
     {
-      "Question": "Define Didactic."
-      "Value One": "Filled with or characterized by a lively energy and excitement"
-      "Value Two": "Works that have the primary aim of teaching or instructing, especially the teaching of morals or ethic principles"
-      "Value Three": "Displaying or indicative of an offensively condescending manner"
+      "Question": "Define Didactic.",
+      "Value One": "Filled with or characterized by a lively energy and excitement",
+      "Value Two": "Works that have the primary aim of teaching or instructing, especially the teaching of morals or ethic principles",
+      "Value Three": "Displaying or indicative of an offensively condescending manner",
       "Value Four": "One who frequents (a store, theater, restaurant, or other establishment) as a customer"
     },
     {
-      "Question": "Define Euphemism."
-      "Value One": "The painless killing of a patient suffering from an incurable and painful disease or in an irreversible coma. The practice is illegal in most countries"
-      "Value Two": "A word or phrase considered pleasing to the ear"
-      "Value Three": "A feeling or state of intense excitement and happiness"
+      "Question": "Define Euphemism.",
+      "Value One": "The painless killing of a patient suffering from an incurable and painful disease or in an irreversible coma. The practice is illegal in most countries",
+      "Value Two": "A word or phrase considered pleasing to the ear",
+      "Value Three": "A feeling or state of intense excitement and happiness",
       "Value Four": "A more agreeable or less offensive substitute for a generally unpleasant word or concept"
     },
     {
-      "Question": "Define Extended Metaphor."
-      "Value One": "Any metaphor longer than a sentence"
-      "Value Two": "A metaphor developed at great length, occurrng frequently in or throughout a book"
-      "Value Three": "Another word for a theme present throughout a novel"
+      "Question": "Define Extended Metaphor.",
+      "Value One": "Any metaphor longer than a sentence",
+      "Value Two": "A metaphor developed at great length, occurrng frequently in or throughout a book",
+      "Value Three": "Another word for a theme present throughout a novel",
       "Value Four": "A metaphor that is used for more than a page to drive a specific point regarding the plot of a novel"
     },
     {
-      "Question": "Define Figurative Language."
-      "Value One": "Speech or word use unfamiliar to an audience"
-      "Value Two": "The act of learning a dialect through exposure as opposed to formal learning"
-      "Value Three": "Writing or speech that is not intended to carry literal meaning and is usually meant to be imaginative and vivid"
+      "Question": "Define Figurative Language.",
+      "Value One": "Speech or word use unfamiliar to an audience",
+      "Value Two": "The act of learning a dialect through exposure as opposed to formal learning",
+      "Value Three": "Writing or speech that is not intended to carry literal meaning and is usually meant to be imaginative and vivid",
       "Value Four": "A vernacular developed over many years and differing greatly from its origin tongue"
     }
   ]
   [
     {
-      "Question": "What is the chemical formula for acetate?"
-      "Value One": "C2H3O2-
-"
-      "Value Two": "The act of learning a dialect through exposure as opposed to formal learning"
-      "Value Three": "Writing or speech that is not intended to carry literal meaning and is usually meant to be imaginative and vivid"
+      "Question": "What is the chemical formula for acetate?",
+      "Value One": "C2H3O2-",
+      "Value Two": "The act of learning a dialect through exposure as opposed to formal learning",
+      "Value Three": "Writing or speech that is not intended to carry literal meaning and is usually meant to be imaginative and vivid",
       "Value Four": "A vernacular developed over many years and differing greatly from its origin tongue"
     },
     {
-      "Question": "What is the chemical formula for ammonium?"
-      "Value One": "Speech or word use unfamiliar to an audience"
-      "Value Two": "The act of learning a dialect through exposure as opposed to formal learning"
-      "Value Three": "Writing or speech that is not intended to carry literal meaning and is usually meant to be imaginative and vivid"
+      "Question": "What is the chemical formula for ammonium?",
+      "Value One": "Speech or word use unfamiliar to an audience",
+      "Value Two": "The act of learning a dialect through exposure as opposed to formal learning",
+      "Value Three": "Writing or speech that is not intended to carry literal meaning and is usually meant to be imaginative and vivid",
       "Value Four": "A vernacular developed over many years and differing greatly from its origin tongue"
     }
   ]

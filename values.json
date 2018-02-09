@@ -1,203 +1,203 @@
 [
   [
-    {
-      "Question": "What is the definition of denotation?",
-      "Value One": "The act of deleting a note or annotation",
-      "Value Two": "The strict, literal, dictionary definition of a word",
-      "Value Three": "The value of a variable",
-      "Value Four": "An idea or feeling that a word invokes in addition to its literal or primary meaning"
-    },
-    {
-      "Question": "What is the definition of diction?",
-      "Value One": "Refers to the writer's word choices, especially with regard to their correctness, clearness, or effectiveness",
-      "Value Two": "Archaic language for the word 'dictionary'",
-      "Value Three": "A specific genre of fiction known for dramatic portayals of love and death",
-      "Value Four": "Slang for the word 'addiction'"
-    },
-    {
+    [
+      ["What is the definition of denotation?"],
+      ["The act of deleting a note or annotation", "incorrect"],
+      ["The strict, literal, dictionary definition of a word", "correct"],
+      ["The value of a variable", "incorrect"],
+      ["An idea or feeling that a word invokes in addition to its literal or primary meaning", "incorrect"]
+    ],
+    [
+      ["What is the definition of diction?"],
+      ["Refers to the writer's word choices, especially with regard to their correctness, clearness, or effectiveness", "correct"],
+      ["Archaic language for the word 'dictionary'",
+      ["A specific genre of fiction known for dramatic portayals of love and death",
+      ["Slang for the word 'addiction'", "incorrect"]
+    ],
+    [
       "Question": "What is the definition of didactic?",
       "Value One": "Filled with or characterized by a lively energy and excitement",
       "Value Two": "Works that have the primary aim of teaching or instructing, especially the teaching of morals or ethic principles",
       "Value Three": "Displaying or indicative of an offensively condescending manner",
       "Value Four": "One who frequents (a store, theater, restaurant, or other establishment) as a customer"
-    },
-    {
+    ],
+    [
       "Question": "What is the definition of euphemism?",
       "Value One": "The painless killing of a patient suffering from an incurable and painful disease or in an irreversible coma. The practice is illegal in most countries",
       "Value Two": "A word or phrase considered pleasing to the ear",
       "Value Three": "A feeling or state of intense excitement and happiness",
       "Value Four": "A more agreeable or less offensive substitute for a generally unpleasant word or concept"
-    },
-    {
+    ],
+    [
       "Question": "What is the definition of extended metaphor?",
       "Value One": "Any metaphor longer than a sentence",
       "Value Two": "A metaphor developed at great length, occurrng frequently in or throughout a book",
       "Value Three": "Another word for a theme present throughout a novel",
       "Value Four": "A metaphor that is used for more than a page to drive a specific point regarding the plot of a novel"
-    },
-    {
+    ],
+    [
       "Question": "What is the definition of figurative language?",
       "Value One": "Speech or word use unfamiliar to an audience",
       "Value Two": "The act of learning a dialect through exposure as opposed to formal learning",
       "Value Three": "Writing or speech that is not intended to carry literal meaning and is usually meant to be imaginative and vivid",
       "Value Four": "A vernacular developed over many years and differing greatly from its origin tongue"
-    }
+    ]
   ],
   [
-    {
+    [
       "Question": "What is the chemical formula for acetate?",
       "Value One": "C2H3O2,-",
       "Value Two": "C2O4,2-",
       "Value Three": "PO3,3-",
       "Value Four": "SCN,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for ammonium?",
       "Value One": "CO3,2-",
       "Value Two": "ClO3,-",
       "Value Three": "NH4,+",
       "Value Four": "NO3,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for bromate?",
       "Value One": "BrO3,-",
       "Value Two": "CrO4,2-",
       "Value Three": "MnO4,-",
       "Value Four": "ClO,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for carbonate?",
       "Value One": "BrO3,-",
       "Value Two": "CrO4,2-",
       "Value Three": "MnO4,-",
       "Value Four": "CO3,2-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for chlorate?",
       "Value One": "BrO3,-",
       "Value Two": "ClO3,-",
       "Value Three": "MnO4,-",
       "Value Four": "ClO,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for chlorite?",
       "Value One": "ClO2,-",
       "Value Two": "CrO4,2-",
       "Value Three": "MnO4,-",
       "Value Four": "ClO,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for chromate?",
       "Value One": "ClO2,-",
       "Value Two": "CrO4,2-",
       "Value Three": "CrO4,2-",
       "Value Four": "ClO,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for cyanide?",
       "Value One": "ClO2,-",
       "Value Two": "CrO4,2-",
       "Value Three": "MnO4,-",
       "Value Four": "CN,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for dichromate?",
       "Value One": "Cr2O7,2-",
       "Value Two": "CrO4,2-",
       "Value Three": "MnO4,-",
       "Value Four": "CN,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for hydroxide?",
       "Value One": "Cr2O7,2-",
       "Value Two": "CrO4,2-",
       "Value Three": "OH,-",
       "Value Four": "CN,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for hypochlorite?",
       "Value One": "Cr2O7,2-",
       "Value Two": "CrO4,2-",
       "Value Three": "OH,-",
       "Value Four": "ClO,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for nitrate?",
       "Value One": "Cr2O7,2-",
       "Value Two": "NO3,-",
       "Value Three": "OH,-",
       "Value Four": "ClO,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for nitrite?",
       "Value One": "Cr2O7,2-",
       "Value Two": "NO3,-",
       "Value Three": "NO2,-",
       "Value Four": "ClO,-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for oxalate?",
       "Value One": "Cr2O7,2-",
       "Value Two": "NO3,-",
       "Value Three": "NO2,-",
       "Value Four": "C2O4,2-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for perchlorate?",
       "Value One": "ClO4,-",
       "Value Two": "NO3,-",
       "Value Three": "NO2,-",
       "Value Four": "C2O4,2-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for permanganate?",
       "Value One": "MnO4,-",
       "Value Two": "NO3,-",
       "Value Three": "NO2,-",
       "Value Four": "C2O4,2-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for peroxide?",
       "Value One": "MnO4,-",
       "Value Two": "NO3,-",
       "Value Three": "O2,2-",
       "Value Four": "C2O4,2-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for phosphate?",
       "Value One": "MnO4,-",
       "Value Two": "PO4,3-",
       "Value Three": "O2,2-",
       "Value Four": "C2O4,2-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for phosphite?",
       "Value One": "MnO4,-",
       "Value Two": "PO4,3-",
       "Value Three": "PO3,3-",
       "Value Four": "C2O4,2-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for sulfate?",
       "Value One": "MnO4,-",
       "Value Two": "PO4,3-",
       "Value Three": "PO3,3-",
       "Value Four": "SO4,2-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for sulfite?",
       "Value One": "MnO4,-",
       "Value Two": "SO4,2-",
       "Value Three": "PO3,3-",
       "Value Four": "SO3,2-"
-    },
-    {
+    ],
+    [
       "Question": "What is the chemical formula for thiocyanate?",
       "Value One": "MnO4,-",
       "Value Two": "SO4,2-",
       "Value Three": "SCN,-",
       "Value Four": "SO3,2-"
-    }
+    ]
   ]
 ]
     

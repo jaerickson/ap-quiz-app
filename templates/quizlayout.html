@@ -30,7 +30,7 @@
     
 {% block content %}{% endblock %}
 <h3>{{ q }}</h3>
-<form action="/{{active_tab}}">
+<form action="/{{active_tab}}" methods=['GET','POST']>
   <input type="radio" name="answer" value="{{ val1 }}"> {{ val1 }}<br>
   <input type="radio" name="answer" value="{{ val2 }}"> {{ val2 }}<br>
   <input type="radio" name="answer" value="{{ val3 }}"> {{ val3 }}<br>

@@ -17,7 +17,7 @@ def render_main():
     
 @app.route('/lang', methods=['GET','POST'])
 def render_lang():
-  if number = None:
+  if 'number' not in locals():
       number = 0
       with open('values.json') as values_data:
         values = json.load(values_data)

@@ -19,13 +19,13 @@ def render_main():
 def render_lang():
       with open('values.json') as values_data:
         values = json.load(values_data)
-        return render_template('lang.html', q = values[0][0][0], val1 = values[0][0][1][0], val2 = values[0][0][2][0], val3 = values[0][0][3][0], val4 = values[0][0][4][0])
+        return render_template('lang.html', q = values[0][0][0][0], val1 = values[0][0][1][0], val2 = values[0][0][2][0], val3 = values[0][0][3][0], val4 = values[0][0][4][0])
 
 @app.route('/chem', methods=['GET','POST'])
 def render_chem():
       with open('values.json') as values_data:
         values = json.load(values_data)
-        return render_template('chem.html', q = values[1][0][0], val1 = values[1][0][1][0], val2 = values[1][0][2][0], val3 = values[1][0][3][0], val4 = values[1][0][4][0])
+        return render_template('chem.html', q = values[1][0][0][0], val1 = values[1][0][1][0], val2 = values[1][0][2][0], val3 = values[1][0][3][0], val4 = values[1][0][4][0])
 
 @app.route('/startOver')
 def startOver():

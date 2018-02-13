@@ -119,14 +119,14 @@
       ["Cr2O7,2-", "incorrect"],
       ["CrO4,2-", "incorrect"],
       ["OH,-", "incorrect"],
-      ["ClO,-", "correct"],
+      ["ClO,-", "correct"]
     ],
     [
       ["What is the chemical formula for nitrate?"],
       ["Cr2O7,2-", "incorrect"],
       ["NO3,-", "correct"],
       ["OH,-", "incorrect"],
-      ["ClO,-", "incorrect"],
+      ["ClO,-", "incorrect"]
     ]
   ]
 ]

@@ -4,7 +4,6 @@ from flask import Flask, url_for, render_template, request, redirect, session
 
 app = Flask(__name__)
 
-number = 0
 
 # In order to use "sessions",you need a "secret key".
 # This is something random you generate.  

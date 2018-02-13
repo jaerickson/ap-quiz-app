@@ -4,6 +4,8 @@ from flask import Flask, url_for, render_template, request, redirect, session
 
 app = Flask(__name__)
 
+number = 0
+
 # In order to use "sessions",you need a "secret key".
 # This is something random you generate.  
 # See: http://flask.pocoo.org/docs/0.10/quickstart/#sessions
@@ -17,7 +19,7 @@ def render_main():
     
 @app.route('/lang', methods=['GET','POST'])
 def render_lang():
-      number = number + 1
+      number += 1
       with open('values.json') as values_data:
         values = json.load(values_data)
         return render_template('lang.html', q = values[0][number][0][0], val1 = values[0][number][1][0], val2 = values[0][number][2][0], val3 = values[0][number][3][0], val4 = values[0][number][4][0])

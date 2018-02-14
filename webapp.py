@@ -17,15 +17,9 @@ def render_main():
         return render_template('home.html')
     
 @app.route('/lang', methods=['GET','POST'])
+n = 0
 def render_lang():
-  n = 0
-  if 'answer' not in request.form:
-      n = 0
-      with open('values.json') as values_data:
-        values = json.load(values_data)
-        return render_template('lang.html', q = values[0][n][0][0], val1 = values[0][n][1][0], val2 = values[0][n][2][0], val3 = values[0][n][3][0], val4 = values[0][n][4][0])
-  else:
-      n += 1
+  n++
       with open('values.json') as values_data:
         values = json.load(values_data)
         return render_template('lang.html', q = values[0][n][0][0], val1 = values[0][n][1][0], val2 = values[0][n][2][0], val3 = values[0][n][3][0], val4 = values[0][n][4][0])

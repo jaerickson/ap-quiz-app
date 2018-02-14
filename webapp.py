@@ -17,8 +17,7 @@ def render_main():
         return render_template('home.html')
     
 @app.route('/lang', methods=['GET','POST'])
-n = 0
-def render_lang():
+def render_lang(n = 0):
   n++
       with open('values.json') as values_data:
         values = json.load(values_data)

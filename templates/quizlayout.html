@@ -12,6 +12,7 @@
   {% set val2 = val2 %}
   {% set val3 = val3 %}
   {% set val4 = val4 %}
+  {% set n = n %}
   <title>AP {% block title%}{% endblock %} Quiz - AP Practice</title>
   </head>
   <body>
@@ -29,7 +30,7 @@
 	  </nav>
     
 {% block content %}{% endblock %}
-<h3>{{ q }}</h3>
+<h3>Question {{ n }}: {{ q }}</h3>
 <form action="/{{active_tab}}" methods=['POST']>
   <input type="radio" name="answer" value="{{ val1 }}"> {{ val1 }}<br>
   <input type="radio" name="answer" value="{{ val2 }}"> {{ val2 }}<br>

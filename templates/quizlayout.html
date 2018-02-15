@@ -32,11 +32,23 @@
 {% block content %}{% endblock %}
 <h3>Question {{ n }}: {{ q }}</h3>
 <form action="/{{active_tab}}" methods=['POST']>
-  <input type="radio" name="answer" value="{{ val1 }}"> {{ val1 }}<br>
-  <input type="radio" name="answer" value="{{ val2 }}"> {{ val2 }}<br>
-  <input type="radio" name="answer" value="{{ val3 }}"> {{ val3 }}<br>
-  <input type="radio" name="answer" value="{{ val4 }}"> {{ val4 }}<br><br>
-  <input type="submit" value="Next">
+  <input type="radio" name="answer1" value="{{ val1 }}"> {{ val1 }}<br>
+  <input type="radio" name="answer1" value="{{ val2 }}"> {{ val2 }}<br>
+  <input type="radio" name="answer1" value="{{ val3 }}"> {{ val3 }}<br>
+  <input type="radio" name="answer1" value="{{ val4 }}"> {{ val4 }}<br><br>
+  <input type="radio" name="answer2" value="{{ val1 }}"> {{ val1 }}<br>
+  <input type="radio" name="answer2" value="{{ val2 }}"> {{ val2 }}<br>
+  <input type="radio" name="answer2" value="{{ val3 }}"> {{ val3 }}<br>
+  <input type="radio" name="answer2" value="{{ val4 }}"> {{ val4 }}<br><br>
+  <input type="radio" name="answer3" value="{{ val1 }}"> {{ val1 }}<br>
+  <input type="radio" name="answer3" value="{{ val2 }}"> {{ val2 }}<br>
+  <input type="radio" name="answer3" value="{{ val3 }}"> {{ val3 }}<br>
+  <input type="radio" name="answer3" value="{{ val4 }}"> {{ val4 }}<br><br>
+  <input type="radio" name="answer4" value="{{ val1 }}"> {{ val1 }}<br>
+  <input type="radio" name="answer4" value="{{ val2 }}"> {{ val2 }}<br>
+  <input type="radio" name="answer4" value="{{ val3 }}"> {{ val3 }}<br>
+  <input type="radio" name="answer4" value="{{ val4 }}"> {{ val4 }}<br><br>
+  <input type="submit" value="Check">
 </form> 
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

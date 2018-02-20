@@ -6,6 +6,13 @@
 {% block content %}
 <h1> AP Lang Quiz </h1>
 {{ info }}
+{% if 'numCorrect' in session %} 
+  {{ session['numCorrect'] }}/8<br>
+ {% endif %}
+<p>Global Highscore:</p>
+ {% if 'highScore' in session %} 
+   {{ session['highScore'] }}
+ {% endif %} /8</p>
 <form action="/lang" method="POST">
   
   Question 1: What is the definition of denotation?<br>

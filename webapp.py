@@ -14,44 +14,54 @@ app.secret_key=os.environ["SECRET_KEY"]; #This is an environment variable.
 highscore = 0
   
   
+def get_highscore(q1, q2, q3, q4, q5, q6):
+  num = 0
+  session["sessionhighestnum"] = 0
+  if q1 == "correct":
+    num += 1
+  if q2 == "correct":
+    num += 1
+  if q3 == "correct":
+    num += 1
+  if q4 == "correct":
+    num += 1
+  if q5 == "correct":
+    num += 1
+  if q6 == "correct":
+    num += 1
+  global highscore
+  if num > highscore:
+    highscore = num
+  if num > session["numCorrect"]
+    session["numCorrect"] = num
+  return highscore
+  
 def get_info(q1, q2, q3, q4, q5, q6):
     info = ""
-    num = 0
-    session["sessionhighestnum"] = 0
     if q1 == "correct":
       info += "Question 1: CORRECT, "
-      num += 1
     else:
       info += "Question 1: INCORRECT, "
     if q2 == "correct":
       info += "Question 2: CORRECT, "
-      num += 1
     else:
       info += "Question 2: INCORRECT, "
     if q3 == "correct":
       info += "Question 3: CORRECT, "
-      num += 1
     else:
       info += "Question 3: INCORRECT, "
     if q4 == "correct":
       info += "Question 4: CORRECT, "
-      num += 1
     else:
       info += "Question 4: INCORRECT, "
     if q5 == "correct":
       info += "Question 5: CORRECT, "
-      num += 1
     else:
       info += "Question 5: INCORRECT, "
     if q6 == "correct":
       info += "Question 6: CORRECT"
-      num += 1
     else:
       info += "Question 6: INCORRECT"
-    global highscore
-    if num >= highscore:
-        highscore = num
-    session["numCorrect"] = num
     return Markup("<h4>" + info + "</h4>") 
 
 @app.route('/')
@@ -61,7 +71,7 @@ def render_main():
 @app.route('/lang', methods=['GET','POST'])
 def render_lang():
   if 'q1' in request.form:
-        return render_template('lang.html', info = get_info(request.form['q1'], request.form['q2'], request.form['q3'], request.form['q4'], request.form['q5'], request.form['q6']), highscore = highscore)
+        return render_template('lang.html', info = get_info(request.form['q1'], request.form['q2'], request.form['q3'], request.form['q4'], request.form['q5'], request.form['q6']), highscore = get_highscore(get_info(request.form['q1'], request.form['q2'], request.form['q3'], request.form['q4'], request.form['q5'], request.form['q6']))
   else:
     return render_template('lang.html')
   

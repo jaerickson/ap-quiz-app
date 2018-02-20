@@ -6,8 +6,9 @@
 {% block content %}
 <h1> AP Lang Quiz </h1>
 {{ info }}
+<h4>Your Highscore in this Session:</h4>
 {% if 'numCorrect' in session %} 
-  {{ session['numCorrect'] }}/8<br>
+  {{ session['numCorrect'] }}/6<br>
  {% endif %}
 <p>Global Highscore:</p>
  {{ highscore }}/6</p>

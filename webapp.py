@@ -37,9 +37,9 @@ def get_info(q1, q2, q3, q4, q5, q6):
     else:
       info += "Question 5: INCORRECT, "
     if q6 == "correct":
-      info += "Question 6: CORRECT, "
+      info += "Question 6: CORRECT"
     else:
-      info += "Question 6: INCORRECT, "
+      info += "Question 6: INCORRECT"
     return Markup("<h4>" + info + "</h4>") 
 
 @app.route('/')

@@ -45,7 +45,7 @@ def get_info(q1, q2, q3, q4, q5, q6):
       six = "Question 6: CORRECT"
     else:
       six = "Question 6: INCORRECT"
-    return Markup("<h4>" + one + "</h4><br><h4>" + two + "</h4><br><h4>" + three + "</h4><br><h4>" + four + "</h4><br><h4>" + five + "</h4><br><h4>" + six + "</h4>") 
+    return Markup("<h4>" + one + " " + two + " " + three + " " + four + " " + five + " " + six + "</h4>") 
 
 @app.route('/')
 def render_main():

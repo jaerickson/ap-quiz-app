@@ -5,20 +5,25 @@
 {% block content %}
 <h1> AP Lang Quiz </h1>
 <form action="/lang" method="POST">
-  Test
-  <input type="radio" name="q1" value="male" checked> Male<br>
-  <input type="radio" name="q1" value="female"> Female<br>
-  <input type="radio" name="q1" value="other"> Other  <br>
-  <input type="radio" name="q1" value="female"> Female<br>
   
-  <input type="radio" name="q2" value="male" checked> Male<br>
-  <input type="radio" name="q2" value="female"> Female<br>
-  <input type="radio" name="q2" value="other"> Other  <br>
-  <input type="radio" name="q2" value="female"> Female<br>
+  What is the definition of denotation?<br>
+  <input type="radio" name="q1" value="incorect" checked> The act of deleting a note or annotation<br>
+  <input type="radio" name="q1" value="correct"> The strict, literal, dictionary definition of a word<br>
+  <input type="radio" name="q1" value="incorrect"> The value of a variable<br>
+  <input type="radio" name="q1" value="incorrect"> An idea or feeling that a word invokes in addition to its literal or primary meaning<br>
   
-   <input type="radio" name="q3" value="male" checked> Male<br>
+  What is the definition of diction?<br>
+  <input type="radio" name="q2" value="correct" checked> Refers to the writer's word choices, especially with regard to their correctness, clearness, or effectiveness<br>
+  <input type="radio" name="q2" value="incorrect"> Archaic language for the word 'dictionary'<br>
+  <input type="radio" name="q2" value="incorrect"> A specific genre of fiction known for dramatic portayals of love and death<br>
+  <input type="radio" name="q2" value="incorrect"> Slang for the word 'addiction'<br>
+  
+  What is the definition of didactic?<br>
+  <input type="radio" name="q3" value="male" checked> Male<br>
   <input type="radio" name="q3" value="female"> Female<br>
   <input type="radio" name="q3" value="other"> Other  <br>
   <input type="radio" name="q3" value="female"> Female<br>
 
+  <input type="submit" value="Submit">
+</form>
 {% endblock %}

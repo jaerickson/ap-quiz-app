@@ -15,37 +15,32 @@ app.secret_key=os.environ["SECRET_KEY"]; #This is an environment variable.
   
   
 def get_info(q1, q2, q3, q4, q5, q6):
-    one = ""
-    two = ""
-    three = ""
-    four = ""
-    five = ""
-    six = ""
+    info = ""
     if q1 == "correct":
-      one = "Question 1: CORRECT"
+      info += "Question 1: CORRECT, "
     else:
-      one = "Question 1: INCORRECT"
+      info += "Question 1: INCORRECT, "
     if q2 == "correct":
-      two = "Question 2: CORRECT"
+      info += "Question 2: CORRECT, "
     else:
-      two = "Question 2: INCORRECT"
+      info += "Question 2: INCORRECT, "
     if q3 == "correct":
-      three = "Question 3: CORRECT"
+      info += "Question 3: CORRECT, "
     else:
-      three = "Question 3: INCORRECT"
+      info += "Question 3: INCORRECT, "
     if q4 == "correct":
-      four = "Question 4: CORRECT"
+      info += "Question 4: CORRECT, "
     else:
-      four = "Question 4: INCORRECT"
+      info += "Question 4: INCORRECT, "
     if q5 == "correct":
-      five = "Question 5: CORRECT"
+      info += "Question 5: CORRECT, "
     else:
-      five = "Question 5: INCORRECT"
+      info += "Question 5: INCORRECT, "
     if q6 == "correct":
-      six = "Question 6: CORRECT"
+      info += "Question 6: CORRECT, "
     else:
-      six = "Question 6: INCORRECT"
-    return Markup("<h4>" + one + " " + two + " " + three + " " + four + " " + five + " " + six + "</h4>") 
+      info += "Question 6: INCORRECT, "
+    return Markup("<h4>" + info + "</h4>") 
 
 @app.route('/')
 def render_main():

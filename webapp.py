@@ -49,10 +49,10 @@ def get_info(q1, q2, q3, q4, q5, q6):
     else:
       info += "Question 6: INCORRECT"
     global highscore
-    if correct >= highscore:
-        highscore = correct
+    if num >= highscore:
+        highscore = num
     session["highScore"] = highscore
-    session["numCorrect"] = correct
+    session["numCorrect"] = num
     return Markup("<h4>" + info + "</h4>") 
 
 @app.route('/')

@@ -51,7 +51,6 @@ def get_info(q1, q2, q3, q4, q5, q6):
     global highscore
     if num >= highscore:
         highscore = num
-    session["highScore"] = highscore
     session["numCorrect"] = num
     return Markup("<h4>" + info + "</h4>") 
 

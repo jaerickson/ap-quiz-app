@@ -4,4 +4,21 @@
 
 {% block content %}
 <h1> AP Lang Quiz </h1>
+<form action="/lang" method="POST">
+  Test
+  <input type="radio" name="q1" value="male" checked> Male<br>
+  <input type="radio" name="q1" value="female"> Female<br>
+  <input type="radio" name="q1" value="other"> Other  <br>
+  <input type="radio" name="q1" value="female"> Female<br>
+  
+  <input type="radio" name="q2" value="male" checked> Male<br>
+  <input type="radio" name="q2" value="female"> Female<br>
+  <input type="radio" name="q2" value="other"> Other  <br>
+  <input type="radio" name="q2" value="female"> Female<br>
+  
+   <input type="radio" name="q3" value="male" checked> Male<br>
+  <input type="radio" name="q3" value="female"> Female<br>
+  <input type="radio" name="q3" value="other"> Other  <br>
+  <input type="radio" name="q3" value="female"> Female<br>
+
 {% endblock %}

@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 app.secret_key=os.environ["SECRET_KEY"]; #This is an environment variable.  
                                      #The value should be set in Heroku (Settings->Config Vars). 
-  highscore = 0
+highscore = 0
   
   
 def get_info(q1, q2, q3, q4, q5, q6):

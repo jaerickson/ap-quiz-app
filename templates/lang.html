@@ -8,12 +8,12 @@
 {{ info }}
 <h4>Your Highscore in this Session:</h4>
 {% if 'numCorrect' in session %} 
-  {{ session['numCorrect'] }}/6<br>
+<h4>{{ session['numCorrect'] }}</h4><br>
  {% endif %}
-<p>Global Highscore:</p>
- {{ highscore }}/6</p>
+<h4>Global Highscore: 
+  {{ highscore }}/6</h4>
 <form method="POST" action="/startOver">
-    <button type="submit">Test</button>
+    <button type="submit">Start New Practice Session</button>
 </form>
 <form action="/lang" method="POST">
   

@@ -10,9 +10,7 @@
   {{ session['numCorrect'] }}/8<br>
  {% endif %}
 <p>Global Highscore:</p>
- {% if 'highScore' in session %} 
-   {{ session['highScore'] }}
- {% endif %} /8</p>
+ {{ highscore }}/6</p>
 <form method="POST" action="/startOver">
     <button type="submit">Test</button>
 </form>

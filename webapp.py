@@ -73,7 +73,7 @@ def render_chem():
 @app.route('/startOver')
 def startOver():
     session.clear() #clear variable values and create a new session
-    return redirect(url_for('render_main'))
+    return redirect(url_for('render_lang'))
   
 if __name__=="__main__":
     app.run(debug=False)

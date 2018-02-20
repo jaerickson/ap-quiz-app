@@ -13,10 +13,6 @@ app.secret_key=os.environ["SECRET_KEY"]; #This is an environment variable.
                                      #The value should be set in Heroku (Settings->Config Vars). 
   
   
-def set_n():
-  s = 0
-return s
-  
   
 @app.route('/')
 def render_main():
@@ -24,17 +20,15 @@ def render_main():
     
 @app.route('/lang', methods=['GET','POST'])
 def render_lang():
-      n = set_n()
       with open('values.json') as values_data:
         values = json.load(values_data)
-        return render_template('lang.html', q = values[0][n][0][0], val1 = values[0][n][1][0], val2 = values[0][n][2][0], val3 = values[0][n][3][0], val4 = values[0][n][4][0])
+        return render_template('lang.html')
 
 @app.route('/chem', methods=['GET','POST'])
 def render_chem():
-      number += 1
       with open('values.json') as values_data:
         values = json.load(values_data)
-        return render_template('chem.html', q = values[1][number][0][0], val1 = values[1][number][1][0], val2 = values[1][number][2][0], val3 = values[1][number][3][0], val4 = values[1][number][4][0])
+        return render_template('chem.html')
 
 @app.route('/startOver')
 def startOver():

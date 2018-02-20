@@ -15,31 +15,31 @@ app.secret_key=os.environ["SECRET_KEY"]; #This is an environment variable.
   
   
 def get_info(q1, q2, q3, q4, q5, q6):
-    info = "<h4>"
+    info = ""
     if q1 == "correct":
-      info += "Question 1: CORRECT</h4><br>"
+      info += "Question 1: CORRECT<br>"
     else:
-      info += "Question 1: INCORRECT</h4><br>"
+      info += "Question 1: INCORRECT<br>"
     if q2 == "correct":
-      info += "<h4>Question 2: CORRECT</h4><br>"
+      info += "Question 2: CORRECT<br>"
     else:
-      info += "<h4>Question 2: INCORRECT</h4><br>"
+      info += "Question 2: INCORRECT<br>"
     if q3 == "correct":
-      info += "<h4>Question 3: CORRECT</h4><br>"
+      info += "Question 3: CORRECT<br>"
     else:
-      info += "<h4>Question 3: INCORRECT</h4><br>"
+      info += "Question 3: INCORRECT<br>"
     if q4 == "correct":
-      info += "<h4>Question 4: CORRECT</h4><br>"
+      info += "Question 4: CORRECT<br>"
     else:
-      info += "<h4>Question 4: INCORRECT</h4><br>"
+      info += "Question 4: INCORRECT<br>"
     if q5 == "correct":
-      info += "<h4>Question 5: CORRECT</h4><br>"
+      info += "Question 5: CORRECT<br>"
     else:
-      info += "<h4>Question 5: INCORRECT</h4><br>"
+      info += "Question 5: INCORRECT<br>"
     if q6 == "correct":
-      info += "<h4>Question 6: CORRECT</h4><br>"
+      info += "Question 6: CORRECT<br>"
     else:
-      info += "<h4>Question 6: INCORRECT</h4><br>"
+      info += "Question 6: INCORRECT<br>"
     return info
 
 @app.route('/')

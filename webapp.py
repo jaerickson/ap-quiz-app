@@ -17,9 +17,9 @@ app.secret_key=os.environ["SECRET_KEY"]; #This is an environment variable.
 def get_info(q1, q2, q3, q4, q5, q6):
     info = ""
     if q1 == "correct":
-      info += "Question 1: CORRECT<br>"
+      info += "Question 1: CORRECT</h4><br>"
     else:
-      info += "Question 1: INCORRECT<br>"
+      info += "Question 1: INCORRECT</h4><br>"
     if q2 == "correct":
       info += "Question 2: CORRECT<br>"
     else:
@@ -37,9 +37,9 @@ def get_info(q1, q2, q3, q4, q5, q6):
     else:
       info += "Question 5: INCORRECT<br>"
     if q6 == "correct":
-      info += "Question 6: CORRECT<br>"
+      info += "<h4>Question 6: CORRECT<br>"
     else:
-      info += "Question 6: INCORRECT<br>"
+      info += "<h4>Question 6: INCORRECT<br>"
     return info
 
 @app.route('/')

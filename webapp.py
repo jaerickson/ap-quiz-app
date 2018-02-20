@@ -70,7 +70,7 @@ def render_chem():
 
         return render_template('chem.html')
 
-@app.route('/startOver')
+@app.route('/startOver', methods=['GET','POST'])
 def startOver():
     session.clear() #clear variable values and create a new session
     return redirect(url_for('render_lang'))

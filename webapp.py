@@ -62,13 +62,13 @@ def render_main():
 @app.route('/lang', methods=['GET','POST'])
 def render_lang():
   if 'q1' in request.form:
-        return render_template('lang.html', info = get_info(request.form['q1'], request.form['q2'], request.form['q3'], request.form['q4'], request.form['q5'], request.form['q6']))
+        return render_template('lang.html', info = get_info(request.form['q1'], request.form['q2'], request.form['q3'], request.form['q4'], request.form['q5'], request.form['q6']), highscore = highscore)
   else:
     return render_template('lang.html')
+  
 @app.route('/chem', methods=['GET','POST'])
 def render_chem():
-
-        return render_template('chem.html')
+    return render_template('chem.html')
 
 @app.route('/startOver', methods=['GET','POST'])
 def startOver():

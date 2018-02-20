@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 app.secret_key=os.environ["SECRET_KEY"]; #This is an environment variable.  
                                      #The value should be set in Heroku (Settings->Config Vars). 
-  highestnum = 0
+  highscore = 0
   
   
 def get_info(q1, q2, q3, q4, q5, q6):
@@ -48,13 +48,12 @@ def get_info(q1, q2, q3, q4, q5, q6):
       num += 1
     else:
       info += "Question 6: INCORRECT"
-    global highestnum
-    if num > highestnum:
-        highestnum = num
-    if num > session["sessionhighestnum"]:
-      session["sessionhighestnum"] = num
+    global highscore
+    if correct >= highscore:
+        highscore = correct
+    session["highScore"] = highscore
     session["numCorrect"] = correct
-    return Markup("<h4>" + info + "<br> Score: " + num + "</h4>") 
+    return Markup("<h4>" + info + "</h4>") 
 
 @app.route('/')
 def render_main():

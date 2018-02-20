@@ -6,10 +6,10 @@
 {% block content %}
 <h1> AP Lang Quiz </h1>
 {{ info }}
-<h4>Your Highscore in this Session:</h4>
+<h4>Your Highscore in this Session:
 {% if 'numCorrect' in session %} 
-<h4>{{ session['numCorrect'] }}/6</h4>
-{% else %}<h4>N/A</h4>
+{{ session['numCorrect'] }}/6</h4>
+{% else %}N/A</h4>
  {% endif %}
 <h4>Global Highscore: 
   {{ highscore }}/6</h4>

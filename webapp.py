@@ -21,25 +21,25 @@ def get_info(q1, q2, q3, q4, q5, q6):
     else:
       info += "Question 1: INCORRECT</h4><br>"
     if q2 == "correct":
-      info += "Question 2: CORRECT</h4><br>"
+      info += "<h4>Question 2: CORRECT</h4><br>"
     else:
-      info += "Question 2: INCORRECT</h4><br>"
+      info += "<h4>Question 2: INCORRECT</h4><br>"
     if q3 == "correct":
-      info += "Question 3: CORRECT</h4><br>"
+      info += "<h4>Question 3: CORRECT</h4><br>"
     else:
-      info += "Question 3: INCORRECT</h4><br>"
+      info += "<h4>Question 3: INCORRECT</h4><br>"
     if q4 == "correct":
-      info += "Question 4: CORRECT</h4><br>"
+      info += "<h4>Question 4: CORRECT</h4><br>"
     else:
-      info += "Question 4: INCORRECT</h4><br>"
+      info += "<h4>Question 4: INCORRECT</h4><br>"
     if q5 == "correct":
-      info += "Question 5: CORRECT</h4><br>"
+      info += "<h4>Question 5: CORRECT</h4><br>"
     else:
-      info += "Question 5: INCORRECT</h4><br>"
+      info += "<h4>Question 5: INCORRECT</h4><br>"
     if q6 == "correct":
-      info += "Question 6: CORRECT</h4><br>"
+      info += "<h4>Question 6: CORRECT</h4><br>"
     else:
-      info += "Question 6: INCORRECT</h4><br>"
+      info += "<h4>Question 6: INCORRECT</h4><br>"
     return info
 
 @app.route('/')

@@ -9,7 +9,7 @@
 <h4>Your Highscore in this Session:</h4>
 {% if 'numCorrect' in session %} 
 <h4>{{ session['numCorrect'] }}/6</h4>
-{% else %} N/A</h4>
+{% else %}<h4>N/A</h4>
  {% endif %}
 <h4>Global Highscore: 
   {{ highscore }}/6</h4>
